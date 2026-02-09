@@ -10,5 +10,4 @@ compatibility_date = "2024-12-01"
 # KV namespace for caching the OAuth token
 [[kv_namespaces]]
 binding = "TOKEN_CACHE"
-id = ""          # Fill after running: wrangler kv namespace create TOKEN_CACHE
-# preview_id = "" # Fill after running: wrangler kv namespace create TOKEN_CACHE --preview
+id = "62112e163f1b48e6b45747d9916e520a"
