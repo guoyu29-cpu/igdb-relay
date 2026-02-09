@@ -1,0 +1,3 @@
+TWITCH_CLIENT_ID=your_twitch_client_id
+TWITCH_CLIENT_SECRET=your_twitch_client_secret
+API_KEY=your_relay_api_key

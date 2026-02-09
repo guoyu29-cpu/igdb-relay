@@ -1,0 +1,14 @@
+{
+  "name": "igdb-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker relay for IGDB API - handles Twitch OAuth and proxies IGDB requests",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
+  }
+}

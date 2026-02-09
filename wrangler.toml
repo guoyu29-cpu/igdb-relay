@@ -1,0 +1,14 @@
+name = "igdb-relay"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# Secrets (set via `wrangler secret put`):
+#   TWITCH_CLIENT_ID     - Your Twitch app Client ID
+#   TWITCH_CLIENT_SECRET - Your Twitch app Client Secret
+#   API_KEY              - A secret key your frontend sends to authenticate with this relay
+
+# KV namespace for caching the OAuth token
+[[kv_namespaces]]
+binding = "TOKEN_CACHE"
+id = ""          # Fill after running: wrangler kv namespace create TOKEN_CACHE
+# preview_id = "" # Fill after running: wrangler kv namespace create TOKEN_CACHE --preview
